@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32 Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ESP32 Device Dashboard</h1>
+    <div class="card">
+        <p><strong>Status:</strong> Online ✅</p>
+        <p><strong>Built-in LED:</strong> <span id="led-status">...</span></p>
+        <p><strong>Uptime:</strong> <span id="uptime">...</span></p>
+        <p><strong>Free Memory:</strong> <span id="memory">...</span> KB</p>
+        
+        <button id="led-btn" onclick="toggleLED()">Loading...</button>
+    </div>
+
+    <!-- Application logic separated into JS file -->
+    <script src="app.js"></script>
+</body>
+</html>

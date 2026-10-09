@@ -1,0 +1,52 @@
+/* style.css - All CSS decoupled from HTML and C++ */
+body { 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 20px; 
+    background-color: #f0f2f5; 
+}
+
+h1 { 
+    color: #333; 
+}
+
+.card { 
+    background: #fff; 
+    padding: 30px; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    display: inline-block; 
+    max-width: 400px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+p { 
+    font-size: 18px; 
+    color: #555; 
+    text-align: left; 
+    border-bottom: 1px solid #eee; 
+    padding-bottom: 10px; 
+}
+
+button { 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    margin-top: 10px; 
+    cursor: pointer; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    transition: 0.3s; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+#led-btn { 
+    background-color: #007bff; 
+}
+
+/* Dynamic classes applied by Javascript */
+.led-on { background-color: #dc3545 !important; }
+.led-off { background-color: #28a745 !important; }
